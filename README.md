@@ -50,10 +50,10 @@ Hello, my name is Dilnaz, and here I have **.ino** files and screenshots of the 
 
 > In this last exercise, our aim is to make a simple brightness control of a cell phone, using the sensors described above. So, analyzing the initial given statements.
 > 1. When the phone is **NOT** on call:
->   1. the phone is close to the ear -> the brightness should be off
->   2. the phone is far away from the ear (> 30cm)
->     1. if it is on **AUTO** mode -> adjust the brightness of the phone according to the *light sensor*
->     2. if it is on **MANUAL** mode -> the user adjusts the brightness using the *potentiometer*
+>   * the phone is close to the ear -> the brightness should be off
+>   * the phone is far away from the ear (> 30cm)
+>     ** if it is on **AUTO** mode -> adjust the brightness of the phone according to the *light sensor*
+>     ** if it is on **MANUAL** mode -> the user adjusts the brightness using the *potentiometer*
 > 2. When the phone is **ON** call:
     1. the phone is close to the hand of the user
       1. if it is on **AUTO** mode -> adjust the brightness of the phone according to the *light sensor*
