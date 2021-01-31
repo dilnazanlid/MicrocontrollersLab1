@@ -59,4 +59,6 @@ Hello, my name is Dilnaz, and here I have **.ino** files and screenshots of the 
 >     - if it is on **AUTO** mode -> adjust the brightness of the phone according to the *light sensor*
 >     - if it is on **MANUAL** mode -> the user adjusts the brightness using the *potentiometer*
 >   - the phone is far away from the hand of the user (> 30cm) -> the brightness should be off
+>
+>
 > In the above schema, the distance is measured using *Ultrasound distance sensor*, whether phone is on/off the call and auto/manually adjusting the brightness is kept track using the pushbuttons, and *light sensor* and *potentiometer* are used to adjust the brightness respectively. You can check the circuit and code above.
