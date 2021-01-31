@@ -19,8 +19,17 @@ Hello, my name is Dilnaz, and here I have **.ino** files and screenshots of the 
 ## Lab 2:
 
 1. Switch debouncing
+
+> In this exercise, I did a simple circuit with one LED and resistor, along with **push button** to control the state of the LED. According to the task, I initialized the variables to set the delay time between button pushes, so that continuously pressing the button for many times will be controlled using the time from the last push, and appropriate time delay between button pushes. The phenomenon is called *Switch bounce*.
+
 2. Multiple switches
+
+> The task is similar to the previous, however, the circuit became complex by adding the second **push button**, so that the LED state can be controlled using to buttons simultaneously.
+
 3. Potentiometer
+
+> 
+
 4. Photoresistors
 5. Motion Sensor
 6. Light sensor
