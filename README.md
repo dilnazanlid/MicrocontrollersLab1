@@ -40,7 +40,10 @@ Hello, my name is Dilnaz, and here I have **.ino** files and screenshots of the 
 
 6. Light sensor
 
->
+> Light sensors are the photoelectric devices that convert light energy detected to electrical energy. In this exercise, we connect the LED to alternating pin (~) so that the value from light sensors would gradually change the brightness of LED from 0 to 255. Also, the ambient light sensor, which I used in the simulator, needs the resistor to be adjusted to particular value, so that the analog value for LED will not go beyond the range. In my case, I used 6350 ohm for the resistor in series to light sensor.  
 
 7. Proximity sensor
+
+> Proximity sensors are devices to detect the presence of nearby object without physical contact, in other words, it emits electromagnetic waves and looks for the change in the returned field. For this task, we used ultrasound distance sensor, and only printed the detected distance in the serial monitor. However, there was some constraints - if object is too close(< 2cm), it shows the random value, and if it is out of range - the maximum value.
+
 8. Cell phone
