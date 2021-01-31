@@ -28,10 +28,19 @@ Hello, my name is Dilnaz, and here I have **.ino** files and screenshots of the 
 
 3. Potentiometer
 
-> 
+> Potentiometer is defined as a 3 terminal variable resistor in which the resistance is manually varied to control the flow of electric current, and it acts as an adjustable voltage divider. In this task I connected potentimeter and LED on one board, and controlled LED's brightness by changing the potentiometer value.
 
 4. Photoresistors
+
+> Photoresistors are a light-controlled variable resistors. It's resistance decrease when light intensity on the photoresistor is increased. In the task, we have photoresistor and LED on one board, so that when the light is increased, the LED's brightness desrease, and vice-versa.
+
 5. Motion Sensor
+
+> Motion sensors are used to evaluate the sense motion, almost always used to detect whether a human has moved in or out of the sensors range. As in the previous exercises, I constructed a circuit with LED and PIR motion sensor, so that when we simulate object motion within the sensor area, LED turn on, turning off only after some time the object has left the zone on motion.
+
 6. Light sensor
+
+>
+
 7. Proximity sensor
 8. Cell phone
