@@ -32,7 +32,7 @@ Hello, my name is Dilnaz, and here I have **.ino** files and screenshots of the 
 
 4. Photoresistors
 
-> Photoresistors are a light-controlled variable resistors. It's resistance decrease when light intensity on the photoresistor is increased. In the task, we have photoresistor and LED on one board, so that when the light is increased, the LED's brightness desrease, and vice-versa.
+> Photoresistors are a light-controlled variable resistors. It's resistance decrease when light intensity on the photoresistor is increased. In the task, we have photoresistor and LED on one board, so that when the light is increased, the LED's brightness decrease, and vice-versa.
 
 5. Motion Sensor
 
@@ -47,3 +47,17 @@ Hello, my name is Dilnaz, and here I have **.ino** files and screenshots of the 
 > Proximity sensors are devices to detect the presence of nearby object without physical contact, in other words, it emits electromagnetic waves and looks for the change in the returned field. For this task, we used ultrasound distance sensor, and only printed the detected distance in the serial monitor. However, there was some constraints - if object is too close(< 2cm), it shows the random value, and if it is out of range - the maximum value.
 
 8. Cell phone
+
+> In this last exercise, our aim is to make a simple brightness control of a cell phone, using the sensors described above. So, analyzing the initial given statements.
+> 1. When the phone is **NOT** on call:
+    1. the phone is close to the ear -> the brightness should be off
+    2. the phone is far away from the ear (> 30cm)
+      1. if it is on **AUTO** mode -> adjust the brightness of the phone according to the *light sensor*
+      2. if it is on **MANUAL** mode -> the user adjusts the brightness using the *potentiometer*
+> 2. When the phone is **ON** call:
+    1. the phone is close to the hand of the user
+      1. if it is on **AUTO** mode -> adjust the brightness of the phone according to the *light sensor*
+      2. if it is on **MANUAL** mode -> the user adjusts the brightness using the *potentiometer*
+    2. the phone is far away from the hand of the user (> 30cm) -> the brightness should be off
+
+> In the above schema, the distance is measured using *Ultrasound distance sensor*, whether phone is on/off the call and auto/manually adjusting the brightness is kept track using the pushbuttons, and *light sensor* and *potentiometer* are used to adjust the brightness respectively. You can check the circuit and code above.
